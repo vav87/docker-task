@@ -7,7 +7,7 @@ services:
 
   client:
     image: vav87/client-service:1.0
-    depends-on:
+    depends_on:
       - admin
     ports:
       - 8080:8080
